@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Portal</title>
+
+    <style>
+        /* Page background */
+        body {
+            background-color: skyblue;
+            font-family: Arial;
+            margin: 0;
+        }
+
+        /* Main heading */
+        h1 {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Navigation styling */
+        .nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .nav a {
+            background-color: darkblue;
+            color: white;
+            padding: 10px 15px;
+            margin: 5px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        /* Section styling */
+        .section {
+            background-color: darkblue;
+            color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        /* Input styling */
+        input, select {
+            width: 90%;
+            padding: 8px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: none;
+        }
+
+        /* Button styling */
+        button {
+            padding: 10px 20px;
+            background-color: white;
+            color: darkblue;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Main Heading -->
+    <h1>Student Registration Portal</h1>
+
+    <!-- Navigation Links -->
+    <div class="nav">
+        <a href="#personal">Personal Information</a>
+        <a href="#academic">Academic Details</a>
+        <a href="#address">Address Information</a>
+        <a href="#account">Account Credentials</a>
+    </div>
+
+    <!-- Form -->
+    <form onsubmit="showMessage()">
+
+        <!-- Section 1: Personal Information -->
+        <div class="section" id="personal">
+            <h2>Personal Information</h2>
+
+            Full Name:<br>
+            <input type="text"><br>
+
+            Date of Birth:<br>
+            <input type="date"><br>
+
+            Gender:<br>
+            <select>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select><br>
+
+            Email Address:<br>
+            <input type="email"><br>
+
+            Mobile Number:<br>
+            <input type="text"><br>
+        </div>
+
+        <!-- Section 2: Academic Details -->
+        <div class="section" id="academic">
+            <h2>Academic Details</h2>
+
+            Register Number:<br>
+            <input type="text"><br>
+
+            Degree Program:<br>
+            <input type="text"><br>
+
+            Department:<br>
+            <input type="text"><br>
+
+            Year of Study:<br>
+            <input type="text"><br>
+        </div>
+
+        <!-- Section 3: Address Information -->
+        <div class="section" id="address">
+            <h2>Address Information</h2>
+
+            Door Number:<br>
+            <input type="text"><br>
+
+            Street Name:<br>
+            <input type="text"><br>
+
+            City:<br>
+            <input type="text"><br>
+
+            State:<br>
+            <input type="text"><br>
+
+            Pincode:<br>
+            <input type="text"><br>
+        </div>
+
+        <!-- Section 4: Account Credentials -->
+        <div class="section" id="account">
+            <h2>Account Credentials</h2>
+
+            Username:<br>
+            <input type="text"><br>
+
+            Password:<br>
+            <input type="password"><br>
+
+            Confirm Password:<br>
+            <input type="password"><br>
+
+            <br>
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </div>
+
+    </form>
+
+    <!-- Footer -->
+    <footer>
+        Name: P Girish Kumar | Reg No: 24BDS0007
+    </footer>
+
+    <!-- Popup Message Script -->
+    <script>
+        function showMessage() {
+            alert("Form Submitted Successfully");
+        }
+    </script>
+
+</body>
+</html>

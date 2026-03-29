@@ -1,0 +1,18 @@
+/* Styling for heading */
+h1 {
+    color: green; /* Heading color */
+    text-align: center;
+}
+
+/* Styling for paragraph */
+p {
+    font-size: 18px;
+    color: blue;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
